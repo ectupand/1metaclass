@@ -21,6 +21,7 @@ def cartesian_product(arr1: list[Any], arr2: list[Any]) -> list:
     return res
 
 
-a = [1, 2, 5,6]
+a = [1, 2, 5, 6]
 b = [3, 4]
 print(cartesian_product(a, b))
+##ааааааааа
