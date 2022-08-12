@@ -4,7 +4,9 @@ __all__ = (
 
 
 def is_prime(number: int) -> bool:
-    """
-    Функция должна вернуть True если число является простым, иначе - False
-    """
-    raise NotImplementedError
+    if number < 2:
+        return False
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+    return True
